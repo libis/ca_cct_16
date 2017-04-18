@@ -2340,8 +2340,8 @@ select.searchToolsSelect {
 }
 .objectFullImageContainer {
     position: relative;
-    width:250px;
-    margin: 10px 20px 10px 0px;
+    width:0px;
+    margin: 0px 0px 0px 0px;
     text-align:center;
     float:left;
 }
