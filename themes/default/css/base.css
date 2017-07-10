@@ -1281,8 +1281,8 @@ div.hint {
 	color: #333333;
 	text-transform:uppercase;
 	text-align: left;
+	vertical-align: top;
 	width:30%;
-    overflow: hidden;
 	display:inline-block;
 	font-weight:bold;
 	color: #666;
@@ -4671,6 +4671,7 @@ span.bundleDisplayEditorPlacementListItemTitle {
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px#888;
 	box-shadow: 0 0 5px #888;
+	z-index: 100 /*libis: increasing stack order */
 }
 .elementSettingsUI a{
 	float:right;
